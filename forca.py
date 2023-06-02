@@ -11,7 +11,7 @@ def escolher_palavra(tema):
     return random.choice(palavras)
 
 def jogar():
-    tema_escolhido = input("Escolha um tema (curso, linguagens ou professores): ")
+    tema_escolhido = input("Escolha um tema (curso, linguagens, bancos, frameworks ou professores): ")
     palavra = escolher_palavra(tema_escolhido)
     letras_certas = set()
     letras_erradas = set()
